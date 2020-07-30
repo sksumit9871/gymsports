@@ -1,0 +1,182 @@
+@media screen and (max-width: 924px)
+{
+
+	.head
+{
+	width:90%;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column-reverse;
+}
+
+	.secLeft
+{
+	width: auto;
+	background-color: black;
+}
+
+	.secMiddle
+{
+	width: auto;
+	background-color: black;
+}
+
+	.secRight
+{
+	width:auto;
+	background-color: black;
+}
+
+.textcenter
+{
+	max-width: 60%;
+	margin: auto;
+}
+}
+
+@media screen and (max-width: 800px)
+
+{
+	.text-big
+{
+	font-size: 6rem;
+}
+
+	.text-small
+{
+	font-size: 1.4rem;
+	color: lightgray;
+}
+
+ .navList
+ {
+ 	flex-direction: column;
+ 	padding: 1rem;
+ }
+
+ .navList ,li
+{
+	padding: 1rem;
+}
+
+ .navBar
+ {
+ 	flex-direction: column;
+	height: 380px;
+
+ }
+
+ .rightNav
+ {
+ 	width: 43%;
+ }
+
+ .btn-sm-log, .btn-sm-reg
+ {
+ 	width: 80%;
+ }
+
+ .burger
+ {
+ 	display: block;
+ }
+
+
+ .h-Nav-Resp
+ {
+ 	height:70px;
+ }
+
+ .v-Class-Resp
+ {
+ 	opacity: 0;
+ }
+}
+
+@media screen and (max-width: 690px)
+{
+	.navRight
+	{
+		width: 50%;
+
+	}
+}
+
+@media screen and (max-width: 630px)
+
+{
+	.text-big
+
+{
+	font-size: 5rem;
+}
+
+	.text-small
+{
+	font-size: 1.3rem;
+	color: lightgray;
+}
+	.rightNav
+ {
+ 	width: 55%;
+ }
+}
+
+@media screen and (max-width: 510px)
+
+{
+	.text-big
+
+{
+	font-size: 3.5rem;
+}
+
+	.text-small
+{
+	font-size: 1.1rem;
+	color: lightgray;
+}
+
+.inform-HD
+{
+	font-size: 3rem;
+}
+
+.rightNav
+ {
+ 	width: 68%;
+ }
+
+}
+
+@media only screen and (max-width: 420px)
+{
+	.rightNav
+	{
+		width: 82%;
+	}
+}
+
+@media only screen and (max-width: 380px)
+{
+	.rightNav
+ {
+ 	width: 90%;
+ }
+
+ .btn-sm-log, .btn-sm-reg
+ {
+ 	width: 80%;
+ 	margin: 1rem;
+ }
+
+
+}
+
+@media only screen and (max-width:362px)
+{
+	.rightNav
+	{
+		width: 100%;
+	}
+}

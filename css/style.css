@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family:'Quicksand', sans-serif;
+}
+
+.navBar
+{
+	display: flex;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top:0;
+	cursor:pointer;
+	transition: all 0.7s ease-out;
+}
+
+.logo
+{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.logo , img
+{
+	width: 8%;
+	padding: 0rem 1rem 1rem 0rem;
+}
+.navList
+{
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+
+.navList , li
+{
+	list-style: none;
+	padding: 0 1rem;
+		
+}
+
+.navList ,li ,a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.navList ,li ,a:hover
+{
+	color:gray;
+}
+
+.rightNav
+{
+	width: 40%;
+	display: flex;
+}
+
+.background
+{
+	background: rgba(0,0,0,0.7) url('../images/back.jpg');
+	background-size: cover;
+	background-blend-mode:darken;
+	background-repeat: no-repeat;
+}
+
+.box-main
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 80%;
+}
+
+.first
+{
+	height: 75vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	padding: 10rem 0 0 0;
+
+}
+
+.text-big
+{
+	font-size: 8rem;
+}
+
+.text-small
+{
+	font-size: 2rem;
+	color: lightgray;
+}
+
+.btn-lg ,.btn-md
+{	
+	padding: 1rem 3rem;
+	border-radius:8px;
+	background: transparent;
+	color: white;
+	border:1px solid white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition-delay: all ease 0.3s ease-out;
+}
+
+.btn
+{
+	margin: 2rem !important;
+}
+
+.btn-lg:hover
+{
+	color:black;
+	background-color: white;
+	border:1px solid black;
+}
+
+
+.btn-sm-log, .btn-sm-reg
+{
+	padding: 0.6rem 1.6rem;
+	border-radius:4px;
+	background: transparent;
+	font-size: 1rem;
+	color: white;
+	border:1px solid white;
+	margin: 0 0.6rem;
+	transition-delay:all ease 0.1s ease-out; 
+	cursor: pointer;
+}
+
+
+.btn-sm-log:hover
+{
+	color:white;
+	background-color:red;
+	border:1px solid red;
+}
+
+.btn-md:hover
+{
+	color:black;
+	background-color:lightgreen;
+	border:1px solid lightgreen;
+}
+
+.btn-sm-reg:hover
+{
+	color:black;
+	background-color: white;
+	border:1px solid black;
+}
+
+.information
+{
+	width: 100%;
+	color: white;
+	background-image: url('../images/inform-BG.jpg');
+}
+
+.inform-HD
+{
+	text-align: center;
+	justify-content: center;
+	font-size: 4rem;
+	padding: 2.5rem 0 0 0;
+}
+
+.head
+{
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+.secLeft
+{
+	width: 30%;
+	margin: 2rem;
+	background-color:black;
+	padding:0.5rem 3.5rem 5rem 3.5rem;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.secMiddle
+{
+	width: 31%;
+	margin: 2rem;
+	background-color: black;
+	padding:0.5rem 3.5rem 5rem 3.5rem;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.secRight
+{
+	width: 29%;
+	margin: 2rem;
+	background-color: black;
+	background-blend-mode: darken;
+	padding:0.5rem 3.5rem 5rem 3.5rem;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.inform-TXT
+{
+	font-size:1.8rem;
+	color: white;
+}
+
+.inform-Para
+{
+	font-size: 1.2rem;
+	color: lightgray;
+}
+
+.head-CF	
+{
+ justify-content: center;
+ text-align: center;
+ padding: 2rem 0;
+}
+
+.text-MD
+{
+	font-size: 3.5rem;
+	color: white;
+}
+
+.para-CF
+{
+	font-size: 1.8rem;
+	text-align: center;
+	justify-content: center;
+	padding: 1rem 0;
+	color: white;
+}
+
+.informImage
+{
+	width: 80%;
+	margin-top: 2rem;
+}
+
+
+.backgroundCF
+{
+	background-image:url('../images/contactFM.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+}
+
+.form-input
+{	
+	width: 100%;
+	font-size: 1.8rem;
+	color: black;
+	border:2px groove white;
+	border-radius: 4px;
+	outline: none;
+	background: transparent;
+}
+
+.form-input:hover
+{
+	color: black;
+	background-color: white;
+}
+
+.textcenter
+{
+	max-width: 40%;
+	margin: auto;
+}
+
+.burger
+{
+	position: absolute;
+	display: none;
+	cursor: pointer;
+	top:15px;
+	right: 5%;
+}
+.line
+{
+	width:33px;
+	height: 3px;
+	margin: 7px ;
+	background-color: white;
+}
+
+.footer
+{
+	text-align: center;
+	justify-content: center;
+	font-size: 2rem;
+	color: white;
+	background-color: black;
+	padding:1.5rem 0 1.5rem 0;
+}
+
+.defaultColor
+{
+	color:red;
+}
